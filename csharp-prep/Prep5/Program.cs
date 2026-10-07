@@ -43,4 +43,5 @@ class Program
 
         Console.WriteLine($"\nHello {name}, your favorite number squared is {squaredNumber}.");
         Console.WriteLine($"You will turn {ageThisYear} years old in {currentYear}.");
+    }
 }
