@@ -20,7 +20,7 @@ class Word
 
     public void Display()
     {
-        Console.Write($"{_word}");
+        Console.Write($"{_word} ");
     }
 
     public string GetWordString()
