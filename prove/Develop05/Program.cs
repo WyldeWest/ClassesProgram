@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        SimpleGoal mySimpleGoal = new SimpleGoal();
-        Console.WriteLine(mySimpleGoal.GetConsoleString());
+        Goals questTracker = new Goals();
+        questTracker.Start();
     }
 }
